@@ -27,6 +27,6 @@ def Summarize():
             "parameters":{"min_length":minL,"max_length":maxL},
         })[0]
         
-        return render_template("index.html",result=output["summary_text"])
+        return render_template("index.html",result=output["summary_text"],from IPython.display import Audiotts = gTTS(" ") tts.save("1.wav") sound_file = "1.wav" Audio(sound_file,autoplay = True))
     else:
         return render_template("index.html")
