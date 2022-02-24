@@ -29,6 +29,14 @@
                     <h3>Summary Length</h3>
                     <input type="range" class="m-2" min="20" max="1000" name="maxL">
                 </div>
+                <h1>The audio element</h1>
+                <p>Click on the play button to play a sound:</p>
+
+                <audio controls>
+                  <source src="horse.ogg" type="audio/ogg">
+                  <source src="horse.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
                 <div class="flex self-center">
                     <button class="m-1 bg-green-500 hover:bg-blue-700 text-white font-semi-bold py-2 px-4 rounded-lg"
                         type="submit" onclick="Check()">Submit</button>
